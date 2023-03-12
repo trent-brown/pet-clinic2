@@ -86,4 +86,8 @@ class VetController {
 		return vets;
 	}
 
+	@GetMapping("/specialties")
+	public @ResponseBody HashSet<String> getAllSpecialties() {
+		return new HashSet<>(vetService.getAllVetSpecialtiesInClinic());
+	}
 }
