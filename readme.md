@@ -3,6 +3,12 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
 
+## Your task
+
+I have added a new endpoint to get a list of all of the clinic's specialties.  I have also added an endpoint to add an new Vet to the staff.
+
+To test these endpoints I've added a new integration test in the PetClinicIntegrationTests to validate the functionality of the two new endpoints.  The test is failing and I don't know why!  Help!
+
 
 
 ## Understanding the Spring Petclinic application with a few diagrams
