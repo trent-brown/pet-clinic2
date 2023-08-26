@@ -9,6 +9,9 @@ I have added a new endpoint to get a list of all of the clinic's specialties.  I
 
 To test these endpoints I've added a new integration test in the PetClinicIntegrationTests to validate the functionality of the two new endpoints.  The test is failing and I don't know why!  Help!
 
+If you choose to work on this on your local machine, follow the directions below for cloning the repo.  
+
+You can also work on this in github codespaces.  Simply click on the Open in GitHub Codespaces button above.  Be sure to choose a 4-core machine.  There is a devcontainer.json configuration in the repository that will make sure that Java 17, gradle and maven are installed.  There will also be several vscode extensions enabled by default.
 
 
 ## Understanding the Spring Petclinic application with a few diagrams
